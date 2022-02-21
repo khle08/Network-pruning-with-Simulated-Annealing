@@ -1,0 +1,1 @@
+python dnn2sa_down.py --batch 125 --lr 0.001 --repeat 10 --data <mnist/fashion/cifar10> --satol 0.000001 --frac 0.95 --edge <1/2> --temp 0.2 --eta 0.9 --metro 1,10,20,50,100 --reduce 2,5,10
